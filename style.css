@@ -13,6 +13,7 @@
     padding-top: 5em;
     text-align: center;
     overflow: hidden;  
+    font-size: 1.5em;
   }
   
   #game-screen.show {
@@ -58,6 +59,7 @@
   #word-list {
     list-style-type: none;
     padding: 0;
+    font-size: 2em;
   }
   
   #word-list > li {
@@ -70,6 +72,6 @@
   
   #word-list > li:not(.disabled):hover {
     color: white;
-    font-size: 1.5em;
+    font-size: 2.5em;
     cursor: pointer;
   }
